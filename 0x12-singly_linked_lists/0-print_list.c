@@ -2,6 +2,12 @@
 #include <stdio.h>
 #include "lists.h"
 
+/**
+ * print_list - printing the list
+ *
+ * h - linked list
+ * return - no of codes
+ */
 
 size_t print_list(const list_t *h)
 
