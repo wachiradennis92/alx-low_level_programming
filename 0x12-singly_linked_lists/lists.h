@@ -1,6 +1,16 @@
 #ifndef _LINKED_LIST
 #define _LINKED_LIST
 
+/**
+ * struct list_s - singly linked list
+ * str - string - (malloc'ed string)
+ * len - length of the string
+ * 
+ * next -points to the next node
+ *
+ * Description - singly linked list node structure
+ * for alx project
+ */
 
 typedef struct list_s
 {

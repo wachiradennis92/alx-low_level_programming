@@ -3,14 +3,12 @@
 #include "lists.h"
 
 /**
- * print_list - printing the list
- *
- * h - linked list
- * return - no of codes
- */
+  * print_list - This orints all elements of a list
+  * @h - This is a linked list
+  * Return: This is the umber of nodes
+  */
 
 size_t print_list(const list_t *h)
-
 {
 	size_t count = 0;
 
